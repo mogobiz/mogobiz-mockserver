@@ -20,6 +20,6 @@ class MiraklMockService extends AbstractMockService {
 
   override def handle(httpRequest: HttpRequest): HttpResponse = {
     // mock service implementation goes here
-    super.handle(httpRequest.withHeader("Authorization", frontApiKey))
+    super.handle(httpRequest.withHeader("Authorization", frontApiKey).withHeader("Accept", "application/json"))
   }
 }
