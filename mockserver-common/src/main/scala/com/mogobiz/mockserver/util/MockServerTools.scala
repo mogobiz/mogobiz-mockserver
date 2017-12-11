@@ -1,5 +1,6 @@
 package com.mogobiz.mockserver.util
 
+import java._
 import java.io.UnsupportedEncodingException
 import java.net.URLDecoder
 import java.text.SimpleDateFormat
@@ -7,10 +8,6 @@ import java.util.{Date, Locale}
 
 import com.mogobiz.mockserver.io.SoapHelper.{write => writeSoap}
 import com.mogobiz.mockserver.io.XMLHelper.{write => writeXML}
-import org.mockserver.model.{HttpRequest, Parameter, Header, HttpResponse}
-import org.mockserver.model.HttpResponse._
-
-import java._
 
 /**
   *

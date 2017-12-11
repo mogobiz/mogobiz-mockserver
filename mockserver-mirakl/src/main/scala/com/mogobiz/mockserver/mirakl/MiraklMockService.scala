@@ -1,9 +1,5 @@
 package com.mogobiz.mockserver.mirakl
 
-import com.mogobiz.mockserver.mirakl.conf.Settings._
-import com.mogobiz.mockserver.spi.{AbstractMockService, Remote}
-import org.mockserver.model.{HttpResponse, HttpRequest}
-
 /**
   *
   * Created by smanciot on 10/09/16.

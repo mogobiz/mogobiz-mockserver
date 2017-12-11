@@ -1,14 +1,5 @@
 package com.mogobiz.mockserver.spi
 
-import org.mockserver.client.server.MockServerClient
-import org.mockserver.initialize.ExpectationInitializer
-import org.mockserver.mock.action.{HttpForwardActionHandler, ExpectationCallback}
-import org.mockserver.model.HttpCallback._
-import org.mockserver.model.HttpForward._
-import org.mockserver.model.HttpResponse._
-import org.mockserver.model.{HttpResponse, HttpRequest}
-import org.mockserver.model.HttpRequest._
-
 /**
   *
   * Created by smanciot on 04/05/16.

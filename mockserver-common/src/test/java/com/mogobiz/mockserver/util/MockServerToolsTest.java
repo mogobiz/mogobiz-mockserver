@@ -8,12 +8,11 @@ import org.mockserver.url.URLParser;
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
 
-import static org.junit.Assert.*;
-
-import static org.mockserver.model.HttpRequest.request;
-//import static org.mockserver.model.HttpResponse.response;
-
 import static com.mogobiz.mockserver.util.MockServerTools.*;
+import static org.junit.Assert.*;
+import static org.mockserver.model.HttpRequest.request;
+
+//import static org.mockserver.model.HttpResponse.response;
 
 /**
  *

@@ -1,9 +1,7 @@
 package com.mogobiz.mockserver.io
 
 import java.text.SimpleDateFormat
-import java.util.{Locale, Date}
-
-import org.mockserver.model.Cookie
+import java.util.{Date, Locale}
 
 /**
   *

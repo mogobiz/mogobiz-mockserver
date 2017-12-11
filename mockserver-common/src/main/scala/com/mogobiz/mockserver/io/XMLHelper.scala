@@ -1,6 +1,6 @@
 package com.mogobiz.mockserver.io
 
-import java.io.{StringWriter, ByteArrayInputStream}
+import java.io.{ByteArrayInputStream, StringWriter}
 import javax.xml.bind.JAXBContext
 
 /**

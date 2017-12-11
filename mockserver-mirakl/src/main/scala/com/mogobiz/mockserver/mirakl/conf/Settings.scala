@@ -1,6 +1,5 @@
 package com.mogobiz.mockserver.mirakl.conf
 
-import com.mogobiz.mockserver.spi.Remote
 import com.typesafe.config.{Config, ConfigFactory}
 
 /**
