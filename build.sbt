@@ -62,9 +62,7 @@ lazy val common = project.in(file("mockserver-common"))
 
 lazy val core = project.in(file("mockserver-core")).dependsOn(common)
 
-lazy val mirakl = project.in(file("mockserver-mirakl")).dependsOn(common, core)
-
-lazy val app = project.in(file(".")).dependsOn(common, core).aggregate(common, core, mirakl)
+lazy val app = project.in(file(".")).dependsOn(common, core).aggregate(common, core)
 
 packSettings
 
